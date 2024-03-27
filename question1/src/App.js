@@ -1,7 +1,14 @@
+import React from "react";
 import "./App.css";
+import AutoComplete from "./AutoComplete";
 
 function App() {
-  return <div className="App">{/* Insert your code here */}</div>;
+  
+  return (
+  <div className="App">
+    <AutoComplete />
+  </div>
+  );
 }
 
 export default App;
